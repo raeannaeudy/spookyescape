@@ -1,0 +1,40 @@
+@keyframes bgcolorchange{
+  
+  0%{background-color:orange;}
+  10%{background-color:yellow;}
+  20%{background-color:black;}
+  30%{background-color:black;}
+  40%{background-color:orange;}
+  50%{background-color:black;}
+  60%{background-color:red;}
+  70%{background-color:orange;}
+  80%{background-color:orange;}
+  90%{background-color:orange}
+  100%{background-color:red;}
+}
+div.letter{
+background-color: red;
+  animation-name: bgcolorchange;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+  h1{
+    color: #ffffff;
+    text-shadow:
+      /*white glow*/
+      0 0 7px #708090,
+      0 0 9px #008080,
+      0 0 13px #40e0d0,
+      0 0 21px #00ffff;
+  }
+h2{
+  color: #ffffff;
+  text-shadow:
+    /*whit glow*/
+   0 0 7px #daa520,
+   0 0 9px #ffa500,
+   0 0 13px #ffd700,
+   0 0 21px #ffff00,
+   0 0 28px #f8f8ff;
+ }
