@@ -1,0 +1,80 @@
+img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;}
+
+h1, h2, h3{
+  color: #fff;
+  text-shadow:
+    /* White glow */
+    0 0 7px #f00,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px #f00,
+    0 0 82px #f00,
+    0 0 92px #f00,
+    0 0 102px #f00,
+    0 0 151px #f00;
+}
+
+@keyframes titleanimations{
+  from {opacity:0}
+  to {opacity:1}
+  
+}
+
+
+
+#tertitle{
+  animation-name: titleanimations;
+  animation-duration: 10s
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align:center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#number-input {
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  margin: 1.5%;
+}
+
+p, h1, h4, .btn {
+  margin: 10px;
+}
+
+h1 {
+  margin: 50px;
+}
+
+.background {
+  background-color: #FC8F42 ;
+}
+
+p {
+	font-size: 16px;
+  padding-top: 10px;
+}
+
+img {
+  width: 400px;
+  height: 350px;
+  margin-top: 50px;
+}
